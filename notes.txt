@@ -1,0 +1,75 @@
+First - What is 3D Printing?
+	A lot of manufacturing of solid objects takes something away
+		Sculpting Wood
+		Routing
+		Cutting
+		Laser Cutting
+	Or forming - eg. Vacuum forming
+	Moulding
+	3D Printing is Additive Manufacturing
+        Layering of materials on top of each other to create a solid object
+        Plastic Extrusion - like a hot glue gun or cake icing
+        Show Example Print
+Flow
+    3D Design
+        Scan an existing object
+            3D Scanner
+                Commercial
+                Hack together with Kinect
+            Splice together 2D Photographs
+            Mobile Phone App
+        Pre-made
+            Thingverse
+                Remix
+        Do It Yourself - 3D Design
+            Google Sketchup
+            Solidworks
+            OpenScad
+            Blender
+        At this stage - you could outsource to Shapeways
+    Slice
+        extrusion speed (rotations / minute)
+        head speed
+        temperature
+        Fan on/off
+        wall thickness
+        fill patterns
+        multiple objects
+        creates "gcode"
+    Print
+            Computer
+                User Interface
+                Sends Gcode to microcontroller
+            Microcontroller
+                Drives motors
+                Controller heater
+                Measures temperature of extruder
+            Motors
+                "Steppers" - same as in paper printers
+                Extremely accurate rotation
+            Sensors
+                Endstops
+            Extruder
+                Very fine nozzle
+                Heater
+                    Power resistor
+                    Wound wire around a core
+            Materials
+                PLA
+                    Extrudes at 160-200C
+                    Biodegradable/compostable, made from corn and sugar cane
+                    Heated bed not necessary, PET tape works
+                    Cools slower, fast prints may require fan
+                    Safe, pleasant fumes (smells like pancakes)
+                ABS
+                    Extrudes at 200-250C
+                    Works best with heated print bed
+                    Cools faster
+                    Puts off fumes (possibly toxic)
+                    Less brittle than PLA.
+    Use
+        Remix
+        
+
+
+http://greenfly.org/talks/misc/3dprinting.html
