@@ -50,11 +50,12 @@ Flow
             Sensors
                 Endstops
             Extruder
-                Very fine nozzle
+                Very fine nozzle .5 or .35mm
                 Heater
                     Power resistor
                     Wound wire around a core
             Materials
+                3mm
                 PLA
                     Extrudes at 160-200C
                     Biodegradable/compostable, made from corn and sugar cane
